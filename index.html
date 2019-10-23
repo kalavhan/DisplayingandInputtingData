@@ -42,32 +42,43 @@
 						<br>
 						<a id="learn-more-link" href="#">Learn more</a>
 					</div>
-					<form>
-						<fieldset>
-							<label></label>
-							<input>
-							<span></span>
+					<form id="main-form"action="#" method="POST">
+						<fieldset id="fieldset-id">
+							<label class="label-input-t" for="email-input">Email address</label>
+							<input name="email-input" class="input-bar" type="email" required>
+							<br>
+							<span class="error-message">Please enter a valid email address.</span>
+							<br>
+							<label class="label-input-t" for="phone-input">Phone (recommended)</label>
+							<input name="phone-input" class="input-bar" type="tel">
+							<br>
+							<span class="warning-message">We strongly recommend adding a phone number. This will help verify your account and keep it safe.</span>
+							<br>
+							<br>
+							<label class="label-input-t" for="password-input">Password</label>
+							<input name="password-input" class="input-bar" type="password" required>
+							<br>
+							<span>X</span> <span class="error-message">Use 8 or more characters</span>
+							<br>
+							<span>X</span> <span class="error-message">Use upper and lower case letters (e.g. Aa)</span>
+							<br>
+							<span>X</span> <span class="error-message">Use a number (e.g. 1234)</span>
+							<br>
+							<span>X</span> <span class="error-message">Use a symbol (e.g. !@#$)</span>
+							<br>
+							<label class="label-input-t" for="password-confirm">Confirm password</label>
+							<input name="password-confirm" class="input-bar" type="password" required>
+							<br>
+							<span class="error-message">Confirm password field does not match the password field.</span>
+							<br>
 					
-							<label></label>
-							<input>
-							<span></span>
-					
-							<label></label>
-							<input>
-							<span></span> <span></span>
-							<span></span> <span></span>
-							<span></span> <span></span>
-							<span></span> <span></span>
-					
-							<label></label>
-							<input>
-							<span></span>
-					
-							<button></button>
-							<p></p>
+							<button id="create-account-button"><i class="fas fa-lock"></i> Create Account </button>
+							<p>By clicking Create account, you agree to our
+							Terms and have read and acknowledge our Privacy Statement.</p>
 						</fieldset>
 					</form>
 					<div id="terms-of-use">
+						<span>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</span>
 					</div>
 				</div>
 			
