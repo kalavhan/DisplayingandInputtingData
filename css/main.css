@@ -13,7 +13,6 @@ header{
 	height: 15%;
 }
 main{
-	background-color: orange;
 	margin-top: 5%;
 	width: 30%;
 	margin-left: 35%;
@@ -68,7 +67,42 @@ footer{
 /*Header section*/
 
 /*Main section*/
+
+/*main-section-title*/
 #intuit-logo{
 	width: 100%;
 	height: auto;
+}
+
+/* main-section-form */
+
+#form-section{
+	height: 600px;	
+	background-color: white;
+}
+#title-create-account{
+	width: 100%;
+	text-align:center;
+	padding-top:23px;
+	
+}
+#title-span-1{
+	font-size: 23px;
+	color:#5a5a5a;
+}
+#title-span-2{
+	font-size: 14px;
+	color:#5a5a5a;
+}
+#learn-more-link{
+	text-decoration: none;
+	font-size: 14px;
+	color: #0077C5;
+}
+
+
+/* */
+.layer2 {
+	-webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }
