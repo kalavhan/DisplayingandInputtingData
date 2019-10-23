@@ -5,13 +5,27 @@ body{
 	max-width: 1500px;
 	margin:auto;
 	background-color: #ECEEF1;
+	display: block;
 }
 
 header{
-	float: right;
 	width: 100%;
 	height: 15%;
 }
+main{
+	background-color: orange;
+	margin-top: 5%;
+	width: 30%;
+	margin-left: 35%;
+}
+footer{
+	background-color: blue;
+}
+/*Auxiliar*/
+#space{
+	height: 1px;
+}
+/*Auxiliar*/
 
 /*Header section*/
 #signin-wrapper{
@@ -52,3 +66,9 @@ header{
 	border-width: 1px;
 }
 /*Header section*/
+
+/*Main section*/
+#intuit-logo{
+	width: 100%;
+	height: auto;
+}
