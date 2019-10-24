@@ -1,40 +1,45 @@
-*{
+* {
 	font-family: 'Roboto', sans-serif;
 }
-body{
+
+body {
 	max-width: 1500px;
-	margin:auto;
+	margin: auto;
 	background-color: #ECEEF1;
 	display: block;
 }
 
-header{
+header {
 	width: 100%;
 	height: 15%;
 }
-main{
+
+main {
 	margin-top: 5%;
 	width: 30%;
 	margin-left: 35%;
 }
-footer{
+
+footer {
 	background-color: blue;
 }
+
 /*Auxiliar*/
-#space{
+#space {
 	height: 1px;
 }
+
 /*Auxiliar*/
 
 /*Header section*/
-#signin-wrapper{
+#signin-wrapper {
 	width: 25%;
 	height: 100%;
 	float: right;
 	text-align: right;
 }
 
-#signin-span{
+#signin-span {
 	width: 50%;
 	height: 97%;
 	margin-top: 2%;
@@ -42,17 +47,21 @@ footer{
 	float: left;
 	font-size: 12px;
 }
-#signin-span span{
-	width: 100%; 
+
+#signin-span span {
+	width: 100%;
 }
-#signin-span-one{
+
+#signin-span-one {
 	color: #474747;
 }
-#signin-span-two a:link{
+
+#signin-span-two a:link {
 	text-decoration: none;
 	color: #0077C5;
 }
-#signin-button{
+
+#signin-button {
 	width: 30%;
 	height: 5vh;
 	margin-right: 5%;
@@ -64,70 +73,73 @@ footer{
 	border-color: #5a5a5a;
 	border-width: 1px;
 }
+
 /*Header section*/
 
 /*Main section*/
 
 /*main-section-title*/
-#intuit-logo{
+#intuit-logo {
 	width: 100%;
 	height: auto;
 }
 
 /* main-section-form */
-
-#form-section{
-	height: 80%;	
+#form-section {
+	height: 80%;
 	background-color: white;
 }
-#title-create-account{
+
+#title-create-account {
 	width: 100%;
-	text-align:center;
-	padding-top:23px;
-	
+	text-align: center;
+	padding-top: 23px;
 }
-#title-span-1{
+
+#title-span-1 {
 	font-size: 23px;
-	color:#5a5a5a;
+	color: #5a5a5a;
 }
-#title-span-2{
+
+#title-span-2 {
 	font-size: 14px;
-	color:#5a5a5a;
+	color: #5a5a5a;
 }
-#learn-more-link{
+
+#learn-more-link {
 	text-decoration: none;
 	font-size: 14px;
 	color: #0077C5;
 }
 
-
 /* */
 .layer2 {
 	-webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }
 
 /* main-form-section */
-#fieldset-id{
+#fieldset-id {
 	border-style: none;
 }
-.label-input-t{
+
+.label-input-t {
 	font-size: 14px;
 }
 
-.input-bar{
-	margin-top:13px;
-	width:90%;
-	padding-bottom:12px;
-	border-radius:3px;
-	border-width:thin;
-	border-color:lightgray;
-}
-.error-message{
-	font-size: 10px;
-	
+.input-bar {
+	margin-top: 13px;
+	width: 90%;
+	padding-bottom: 12px;
+	border-radius: 3px;
+	border-width: thin;
+	border-color: lightgray;
 }
 
-.warning-message{
+.error-message {
+	font-size: 10px;
+}
+
+.warning-message {
 	font-size: 10px;
 }
