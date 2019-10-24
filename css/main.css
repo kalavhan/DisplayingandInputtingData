@@ -211,3 +211,7 @@ main {
 	text-decoration: none;
 	color: #585858;
 }
+
+.h2-fake {
+	display: none;
+}
