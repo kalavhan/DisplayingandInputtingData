@@ -1,0 +1,217 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	max-width: 1500px;
+	margin: auto;
+	background-color: #eceef1;
+	display: block;
+}
+
+header {
+	width: 100%;
+	height: 15%;
+}
+
+main {
+	margin-top: 5%;
+	width: 30%;
+	margin-left: 35%;
+}
+
+#space {
+	height: 1px;
+}
+
+.main-button-class {
+	background-color: #0077c5;
+	color: white;
+	border-radius: 4px;
+	border-color: #5a5a5a;
+	border-width: 1px;
+}
+
+#signin-wrapper {
+	width: 25%;
+	height: 100%;
+	float: right;
+	text-align: right;
+}
+
+#signin-span {
+	width: 50%;
+	height: 97%;
+	margin-top: 2%;
+	margin-left: 13%;
+	float: left;
+	font-size: 12px;
+}
+
+#signin-span span {
+	width: 100%;
+}
+
+#signin-span-one {
+	color: #474747;
+}
+
+#signin-span-two a:link {
+	text-decoration: none;
+	color: #0077c5;
+}
+
+#signin-button {
+	width: 30%;
+	height: 5vh;
+	margin-right: 5%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#intuit-logo {
+	width: 100%;
+	height: auto;
+}
+
+#form-section {
+	height: 80%;
+	background-color: #ffffff;
+}
+
+#main-form {
+	padding-left: 6%;
+}
+
+#title-create-account {
+	width: 100%;
+	text-align: center;
+	padding-top: 23px;
+}
+
+#title-span-1 {
+	font-size: 23px;
+	color: #5a5a5a;
+}
+
+#title-span-2 {
+	font-size: 14px;
+	color: #5a5a5a;
+}
+
+#learn-more-link {
+	text-decoration: none;
+	font-size: 14px;
+	color: #0077c5;
+}
+
+.layer2 {
+	-webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+#fieldset-id {
+	border-style: none;
+}
+
+.label-input-t {
+	font-size: 14px;
+}
+
+.input-bar {
+	margin-top: 13px;
+	width: 90%;
+	padding-bottom: 12px;
+	border-radius: 3px;
+	border-width: thin;
+	border-color: #d3d3d3;
+}
+
+#small-text {
+	font-size: 9px;
+}
+
+.error-message {
+	font-size: 10px;
+}
+
+.warning-message {
+	font-size: 10px;
+}
+
+#create-account-button {
+	width: 92%;
+	height: 40px;
+}
+
+#icon-lock-down {
+	padding-right: 12px;
+}
+
+#terms-container {
+	width: 70%;
+	padding-left: 40px;
+}
+
+#terms-text {
+	font-size: 12px;
+	color: #939393;
+	font-style: italic;
+	text-align: center;
+}
+
+#terms-text a:link {
+	text-decoration: none;
+	color: #0077c5;
+}
+
+#terms-of-use {
+	background-color: #e9e9e9;
+	height: 45px;
+	justify-content: center;
+}
+
+#span-terms-of-use {
+	vertical-align: middle;
+	line-height: 45px;
+	font-size: 11px;
+	color: #808080;
+	text-align: center;
+	padding-left: 28px;
+}
+
+#span-terms-of-use a:link {
+	text-decoration: none;
+	color: #0077c5;
+}
+
+#footer-container {
+	width: 55%;
+	text-align: center;
+	margin-left: 22%;
+	align-content: center;
+	justify-content: center;
+	color: #585858;
+	font-size: 12px;
+	padding-top: 1%;
+}
+
+#footer-options {
+	list-style-type: none;
+	position: inherit;
+	margin-left: 35%;
+}
+
+#footer-options li {
+	float: left;
+	padding-right: 3%;
+}
+
+#footer-options li a:link {
+	text-decoration: none;
+	color: #585858;
+}
+
+.h2-fake {
+	display: none;
+}
