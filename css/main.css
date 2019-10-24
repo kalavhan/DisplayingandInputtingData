@@ -20,11 +20,8 @@ main {
 	margin-left: 35%;
 }
 
-footer {
-	background-color: #0000ff;
-}
-
 /* Auxiliar */
+
 #space {
 	height: 1px;
 }
@@ -167,7 +164,7 @@ footer {
 
 #terms-text {
 	font-size: 12px;
-	color: #d3d3d3;
+	color: #939393;
 	font-style: italic;
 	text-align: center;
 }
@@ -195,4 +192,32 @@ footer {
 #span-terms-of-use a:link {
 	text-decoration: none;
 	color: #0077c5;
+}
+
+/* Footer */
+#footer-container{
+	width: 55%;
+	text-align: center;
+	margin-left: 22%;
+	align-content: center;
+	justify-content: center;
+	color: #585858;
+	font-size: 12px;
+	padding-top: 1%;
+}
+
+#footer-options{
+	list-style-type: none;
+	position: inherit;
+	margin-left: 35%;
+}
+
+#footer-options li{
+	float: left;
+	padding-right: 3%;
+}
+
+#footer-options li a:link{
+	text-decoration: none;
+	color: #585858;
 }
