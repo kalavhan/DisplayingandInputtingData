@@ -2,4 +2,4 @@ linters:
   stylelint:
     config: 'stylelint.config.js'
   csslint:
-      ignore: 'indentation'
+      ignore: 'indentation,universal-selector,order-alphabetical'
