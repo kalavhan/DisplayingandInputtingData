@@ -55,7 +55,7 @@ This is our second Microverse Project.
    7. Push your solution up to Github and you’re good to go!
 
 
-[![Project Screen Shot][product-screenshot]]
+![Project Screen Shot][product-screenshot]
 
 
 ### Built With
