@@ -20,11 +20,6 @@ main {
 	margin-left: 35%;
 }
 
-footer {
-	background-color: #0000ff;
-}
-
-/* Auxiliar */
 #space {
 	height: 1px;
 }
@@ -37,9 +32,6 @@ footer {
 	border-width: 1px;
 }
 
-/* Auxiliar */
-
-/* Header section */
 #signin-wrapper {
 	width: 25%;
 	height: 100%;
@@ -77,18 +69,11 @@ footer {
 	margin-top: 2%;
 }
 
-/* Header section */
-
-/* Main section */
-
-/* main-section-title */
-
 #intuit-logo {
 	width: 100%;
 	height: auto;
 }
 
-/* main-section-form */
 #form-section {
 	height: 80%;
 	background-color: #ffffff;
@@ -121,7 +106,6 @@ footer {
 	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }
 
-/* main-form-section */
 #fieldset-id {
 	border-style: none;
 }
@@ -167,7 +151,7 @@ footer {
 
 #terms-text {
 	font-size: 12px;
-	color: #d3d3d3;
+	color: #939393;
 	font-style: italic;
 	text-align: center;
 }
@@ -195,4 +179,31 @@ footer {
 #span-terms-of-use a:link {
 	text-decoration: none;
 	color: #0077c5;
+}
+
+#footer-container {
+	width: 55%;
+	text-align: center;
+	margin-left: 22%;
+	align-content: center;
+	justify-content: center;
+	color: #585858;
+	font-size: 12px;
+	padding-top: 1%;
+}
+
+#footer-options {
+	list-style-type: none;
+	position: inherit;
+	margin-left: 35%;
+}
+
+#footer-options li {
+	float: left;
+	padding-right: 3%;
+}
+
+#footer-options li a:link {
+	text-decoration: none;
+	color: #585858;
 }
