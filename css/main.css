@@ -79,6 +79,10 @@ main {
 	background-color: #ffffff;
 }
 
+#main-form {
+	padding-left: 6%;
+}
+
 #title-create-account {
 	width: 100%;
 	text-align: center;
