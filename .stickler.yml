@@ -1,3 +1,5 @@
 linters:
   stylelint:
     config: 'stylelint.config.js'
+  csslint:
+      ignore: 'indentation'
