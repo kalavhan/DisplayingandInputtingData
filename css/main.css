@@ -5,7 +5,7 @@
 body {
 	max-width: 1500px;
 	margin: auto;
-	background-color: #ECEEF1;
+	background-color: #eceef1;
 	display: block;
 }
 
@@ -24,22 +24,22 @@ footer {
 	background-color: blue;
 }
 
-/*Auxiliar*/
+/* Auxiliar */
 #space {
 	height: 1px;
 }
 
 .main-button-class {
-	background-color: #0077C5;
+	background-color: #0077c5;
 	color: white;
 	border-radius: 4px;
 	border-color: #5a5a5a;
 	border-width: 1px;
 }
 
-/*Auxiliar*/
+/* Auxiliar */
 
-/*Header section*/
+/* Header section */
 #signin-wrapper {
 	width: 25%;
 	height: 100%;
@@ -66,7 +66,7 @@ footer {
 
 #signin-span-two a:link {
 	text-decoration: none;
-	color: #0077C5;
+	color: #0077c5;
 }
 
 #signin-button {
@@ -77,11 +77,12 @@ footer {
 	margin-top: 2%;
 }
 
-/*Header section*/
+/* Header section */
 
-/*Main section*/
+/* Main section */
 
-/*main-section-title*/
+/* main-section-title */
+
 #intuit-logo {
 	width: 100%;
 	height: auto;
@@ -112,7 +113,7 @@ footer {
 #learn-more-link {
 	text-decoration: none;
 	font-size: 14px;
-	color: #0077C5;
+	color: #0077c5;
 }
 
 /* */
@@ -174,7 +175,7 @@ footer {
 
 #terms-text a:link {
 	text-decoration: none;
-	color: #0077C5;
+	color: #0077c5;
 }
 
 #terms-of-use {
@@ -194,5 +195,5 @@ footer {
 
 #span-terms-of-use a:link {
 	text-decoration: none;
-	color: #0077C5;
+	color: #0077c5;
 }
