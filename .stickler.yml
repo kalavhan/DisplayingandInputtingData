@@ -2,5 +2,6 @@ linters:
   stylelint:
     config: 'stylelint.config.js'
   csslint:
-      ignore: 'universal-selector,order-alphabetical,ids,box-model'
+      ignore: 'ids,box-model'
       ignore: 'indentation,color-hex-length'
+      ignore: 'universal-selector,order-alphabetical'
