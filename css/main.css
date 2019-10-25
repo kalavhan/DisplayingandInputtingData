@@ -213,5 +213,6 @@ main {
 }
 
 .h2-fake {
-	display: none;
+ display: none;
+	color: #ffffff;
 }
